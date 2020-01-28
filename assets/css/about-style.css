@@ -1,0 +1,29 @@
+
+.card
+{
+    width: 700px;
+    margin: 30px auto 30px 30px;
+    opacity: 90%;
+    color:  rgb(108, 89, 170);
+    border: gold solid 1px;
+}
+.card-title
+{
+    color: rgb(108, 89, 170);
+    padding-bottom: 15px;
+    border-bottom: solid 2px gold;
+    margin-bottom: 30px;
+}
+.card-img
+{
+    margin-right: 10px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.about-text
+{   
+    margin-block-start: -.5em;
+    line-height: 2rem;
+}
+
