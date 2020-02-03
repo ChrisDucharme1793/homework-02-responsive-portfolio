@@ -1,3 +1,18 @@
+<!--Page is Created by Chris Ducharme-->
+## Notes
+* Page is essentially a bio website about yourself. It has three main pages, About me which is a small excerpt about you and what you like. The second is a portfolio page of all of our homeworks/projects that we have created during our time in Coding Bootcamp. The Third Page is a contact page that will allow people to contact us regarding questions.
+
+* Each page has navbar that allows you to travel to any page through the links. Nav bar is also sticky. 
+
+* Portfolio and About me pages are using bootstraps card component to display images along with info about them. 
+
+* Contact uses to forms component from bootstrap to create text inputs for info
+
+* All pages are responsive. 
+
+* 
+
+
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
