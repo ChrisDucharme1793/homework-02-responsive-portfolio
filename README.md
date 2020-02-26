@@ -1,3 +1,7 @@
+GitHub Pages Link:
+https://chrisducharme1793.github.io/homework-02-responsive-portfolio/ 
+
+
 <!--Page is Created by Chris Ducharme-->
 ## Notes
 * Page is essentially a bio website about yourself. It has three main pages, About me which is a small excerpt about you and what you like. The second is a portfolio page of all of our homeworks/projects that we have created during our time in Coding Bootcamp. The Third Page is a contact page that will allow people to contact us regarding questions.
@@ -9,9 +13,10 @@
 * Contact uses to forms component from bootstrap to create text inputs for info
 
 * All pages are responsive. 
+  
 
-* 
 
+Homework Instructions:
 
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 

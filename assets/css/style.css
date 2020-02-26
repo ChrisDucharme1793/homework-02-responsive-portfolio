@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/75610669_10220276311768845_3793499116521127936_n.jpg?_nc_cat=110&_nc_ohc=eFo6t7lXikEAX_4mbO2&_nc_ht=scontent-dfw5-1.xx&oh=e20cb5e154236727868088e03263b94a&oe=5E923C85);
+    background-image: img src("https://chrisducharme1793.github.io/homework-02-responsive-portfolio/assets/images/portfolio-background.jpg");
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -55,14 +55,16 @@ body
 }
 
 /*About Me Cards*/
-.card
+#about-me-card,
+#contact-card
 {
     width: 700px;
     margin: 30px auto 30px 30px;
     color:  rgb(108, 89, 170);
     border: gold solid 1px;
 }
-.card-title
+#contact-card-title,
+#about-me-card-title
 {
     color: rgb(108, 89, 170);
     padding-bottom: 15px;
@@ -84,9 +86,17 @@ body
 
  
 /*Portfolio cards*/
+.card{
+    color:  rgb(108, 89, 170);
+    border: gold solid 1px;
 
-.card-deck{
-    padding: 50px;
+}
+
+#card-deck{
+   width: 99%;
+   padding: 10px;
+      
+    
    
         }
 
@@ -103,7 +113,7 @@ body
         }
 
 
-/*Footer*/
+/*Footers*/
 
 
 .footer
@@ -117,6 +127,24 @@ body
 }
 
 .footer-text
+{
+    color:  rgb(108, 89, 170);
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.port-footer
+{
+    background-color: gold;
+    border-top: solid 7px rgb(108, 89, 170);
+    width: 100%;
+    position: absolute;
+    bottom: -200px;
+    min-height: 60px;
+}
+
+.port-footer-text
 {
     color:  rgb(108, 89, 170);
     text-align: center;
@@ -146,6 +174,7 @@ body
         margin: 30px auto auto auto;
         max-width: 80%; 
     }
+    
 }
 @media(max-width:669px)
 {
@@ -173,6 +202,5 @@ body
         width: 100%;
     }
 }
-
 
 
